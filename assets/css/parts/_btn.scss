@@ -2,3 +2,42 @@
 /* ===============================================
 # ボタン
 =============================================== */
+@use "../global" as *;
+/* ===============================================
+# ボタン
+=============================================== */
+.btn {
+    position: relative;
+    margin: 0 auto;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $btn-cc;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid $text;
+    box-shadow: 2px 3px 0 0 $text;
+
+    .btn-circle {
+        position: absolute;
+        right: 8px;
+        width: 16px;
+        height: 16px;
+        background: $text;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::after {
+            content: '';
+            width: 4px;
+            height: 4px;
+            border-top: 1px solid $btn-cc;
+            border-right: 1px solid $btn-cc;
+            transform: rotate(45deg);
+            margin-right: 3px;
+        }
+    }
+}
