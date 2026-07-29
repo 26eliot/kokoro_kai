@@ -81,7 +81,7 @@
 
                     <div class="flow-card  step2">
                         <div class="flow-title  step2">計画</div>
-                        <p class="step2">相談支援専門員がご相談を元にサービス等利用計画案・<br class="pc-br">障害児支援利用計画案<br class="pc-br">（プランニング）を作成します。
+                        <p class="step2">相談支援専門員がご相談を元にサービス等利用計画案<br class="pc-br">（プランニング）を作成します。
                         </p>
                     </div>
 
@@ -107,7 +107,7 @@
 
                     <div class="flow-card  step4">
                         <div class="flow-title  step4">決定</div>
-                        <p class="step4">作成したサービス等利用計画案・障害児支援利用計画案などをもとに、申請を行なった後にサービス利用の決定を受けます。</p>
+                        <p class="step4">作成したサービス等利用計画案などをもとに、申請を行なった後にサービス利用の決定を受けます。</p>
                     </div>
 
 
@@ -152,7 +152,7 @@
 
                     <li class="flow-li-pw">
                         <div class="flow-2nd-title">ご利用料金</div>
-                        <p>所得に応じて異なります(1カ月0円～37,800円)<br>
+                        <p>無料です。（市外への訪問等は交通費が別途かかります）<br>
                             詳細についてはお電話やメールでお問い合わせください。<br>
                             基本的に週５日のご利用とさせていただきます。</p>
                     </li>
@@ -172,7 +172,7 @@
                 <div class="flow-contact-inner">
                     <div class="tell">
                         <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/tellphone.svg" alt="tell-icon">
-                        <p class="tell-number">049-290-3966</p>
+                        <p class="tell-number">049-293-6779</p>
                     </div>
                     <span>平日 9:00~17:00まで</span>
                 </div>
@@ -208,7 +208,7 @@
                 <ul class="address-list">
                     <li>
                         <div>事業所名</div>
-                        <p>就労継続支援B型　ぷらす</p>
+                        <p>ぽんて相談室</p>
                     </li>
 
                     <li>
@@ -218,14 +218,14 @@
 
                     <li>
                         <div>所在地</div>
-                        <p>埼玉県ふじみ野市松山 カントー商事ビル１Ｆ</p>
+                        <p>埼玉県ふじみ野市桜ケ丘1-38-34 2F</p>
                     </li>
 
                     <li>
                         <div>連絡先</div>
                         <div class="address-tell">
-                            <p>電話:049-290-3966</p>
-                            <p>FAX:049-264-8070</p>
+                            <p>電話:049-293-6779</p>
+                            <p>FAX:049-263-6780</p>
                         </div>
                     </li>
 
@@ -239,20 +239,60 @@
             </div>
 
             <div class="access">
-                <p class="access-title">アクセス</p>
+        <p class="access-title">アクセス</p>
 
-                <div class="access-block">
-                    <div class="access-tool">
-                        <div class="access-01">【電車】</div>
-                        <p class="access-02">・東武東上線上福岡駅より徒歩15分</p>
-                    </div>
-                </div>
+        <div class="access-block">
+          <div class="access-tool">
+            <div class="access-01">【電車】</div>
+            <p class="access-02">・東武東上線ふじみ野駅より徒歩30分</p>
+          </div>
+        </div>
 
-                <p class="access-car">お車、または自転車でお越しの際は、敷地内に
-                    駐車場と駐輪場がございますのでご利用下さい。</p>
+        <div class="access-block">
 
+          <div class="access-tool">
+
+            <div class="access-01">【バス】</div>
+            <p class="access-02">・ふじみ野駅西口より東武バス利用の場合 :</p>
+
+
+
+            <div class="access-03">大井循環(ふじ01)、上福岡駅東口(ふじ02)、イオン循環(ふじ03)<br>
+              <p>それぞれ<span>「さくら住宅前」</span>下車 徒歩1分</p>
             </div>
-            <!--  access  -->
+
+          </div>
+
+          <div class="access-tool">
+            <p class="access-02">・上福岡駅西口より東武バス利用ご利用の場合：</p>
+
+            <div class="access-03">
+              <p>(上福04)<span>「ふじみ野市大井支所」</span>下車 徒歩10分
+              </p>
+            </div>
+
+          </div>
+
+
+          <div class="access-tool">
+            <p class="access-02">
+              ・ふじみん号ご利用の場合：</p>
+
+            <div class="access-03">
+              <p>CまたはEコース<span>「大井支所」</span>下車
+                徒歩10分</p>
+            </div>
+
+          </div>
+
+        </div>
+        <!--  access-block  -->
+
+        <p class="access-car">お車、または自転車でお越しの際は、敷地内に
+          駐車場と駐輪場がございますのでご利用下さい。</p>
+
+      </div>
+      <!--  access  -->
 
         </div>
         <!--  address-container  -->

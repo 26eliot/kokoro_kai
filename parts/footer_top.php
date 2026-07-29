@@ -44,7 +44,7 @@
                         <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte.png" alt="相談支援ぽんて">
                         <p class="service-title">
                             <span>相談支援</span>
-                            ぽんて
+                            ぽんて相談室
                         </p>
                     </a>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="footer_top-inner">
 
                     <div class="footer_top-block">
-                        <p>049-293-6729</p>
+                        <p>049-290-3966</p>
                         <span>平日 9:00〜17:00まで</span>
                     </div>
 

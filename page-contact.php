@@ -78,14 +78,14 @@
                     相談支援
                 </span>
 
-                <p>ぽんて</p>
+                <p>ぽんて相談室</p>
 
                 <div class="tell-flex">
                     <div class="tell-image">
                         <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/tellphone.svg" alt="電話アイコン">
                     </div>
                     <div class="tell-number">
-                        049-290-3966
+                        049-293-6779
                     </div>
                 </div>
                 <!-- tell-flex -->

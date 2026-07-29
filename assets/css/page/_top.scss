@@ -10,8 +10,7 @@
 
   position: relative;
 
-
-  .loading{
+  .loading {
     width: 100vw;
     height: 100dvh;
     display: block;
@@ -20,8 +19,8 @@
     left: 0;
     padding: 0 20px;
     z-index: 999;
-    
-    &__mask{
+
+    &__mask {
       background: $bg-main;
       width: 100vw;
       height: 100dvh;
@@ -29,21 +28,19 @@
       left: 0;
       top: 0;
       transition: translate 1s;
-      &--hidden{
+      &--hidden {
         translate: 0 -100%;
       }
-
     }
-    &__inner{
+    &__inner {
       max-width: 1080px;
       margin: 0 auto;
       width: 100%;
       position: relative;
       height: 100dvh;
-
     }
 
-    &__logo{
+    &__logo {
       width: 150px;
       position: absolute;
       top: 14px;
@@ -51,23 +48,21 @@
       transition: all 1s;
       translate: 0;
       z-index: 1000;
-      &--expand{
+      &--expand {
         width: 64%;
         left: 50%;
         top: 50%;
         translate: -50% -50%;
       }
-      &--item{
+      &--item {
         opacity: 0;
-        transition: all .5s;
-        &--down{
+        transition: all 0.5s;
+        &--down {
           translate: 0 100%;
         }
       }
     }
   }
-
-
 
   #top-container {
     position: relative;
@@ -157,14 +152,14 @@
           width: 100%;
           height: auto;
 
-          .photo{
+          .photo {
             display: block;
             margin: 0 auto;
             width: calc(100% - 24px);
             height: auto;
             transition: opacity 1s;
             opacity: 1;
-            &--hidden{
+            &--hidden {
               opacity: 0;
             }
 
@@ -234,9 +229,9 @@
             pointer-events: auto;
 
             opacity: 1;
-            transition: opacity .5s;
+            transition: opacity 0.5s;
 
-            &--hidden{
+            &--hidden {
               opacity: 0;
             }
 
@@ -244,25 +239,24 @@
               margin-left: 12px;
               font-size: 1rem;
             }
-            
+
             @media (min-width: 786px) {
               font-size: 1.1rem;
             }
-            
+
             @media (min-width: 1024px) {
               font-size: 1.2rem;
             }
-            
+
             &:nth-child(1) {
               align-self: flex-start;
               margin-left: 8px;
-
             }
-            
+
             &:nth-child(2) {
               align-self: flex-end;
               margin-right: 12px;
-              
+
               @media (min-width: 600px) {
                 align-self: flex-start;
                 margin-right: 8px;
@@ -293,7 +287,6 @@
           text-align: center;
           font-size: 4.5vw;
           line-height: 1.3;
-
 
           @media (min-width: 600px) {
             margin-top: 22vw;
@@ -518,7 +511,6 @@
               border: 1px solid $shadow;
             }
 
-
             .date {
               display: flex;
               flex-wrap: wrap;
@@ -548,7 +540,7 @@
                 width: 4rem;
                 height: 20px;
                 line-height: 20px;
-  
+
                 color: $white;
                 font-size: 0.75rem;
                 background: $orange-2nd;
@@ -604,7 +596,7 @@
 
   // #news
 
-  /* ========topの事業内容======= */
+  /* ========topの事業案内======= */
 
   #service {
     margin: 0 auto;
@@ -641,31 +633,36 @@
         .service-block {
           width: 100%;
           text-align: center;
-          a{
-            transition: opacity .3s;
-            &:hover{
-              opacity: .7;
+          a {
+            transition: opacity 0.3s;
+            &:hover {
+              opacity: 0.7;
             }
           }
 
           .top-logo-img {
-            width: 60px;
+            width: 120px;
             height: auto;
+            margin-bottom: 8px;
             @media (min-width: 600px) {
-              width: 100px;
+              width: 200px;
+            }
+            @media (min-width: 10240px) {
+              width: 240px;
             }
           }
 
           p {
-            font-size: 1rem;
+            font-size: .75rem;
+            letter-spacing: 2px;
 
             @media (min-width: 600px) {
-              font-size: 1.125rem;
+              font-size: .875rem;
               line-height: 1.3;
             }
 
             @media (min-width: 1024px) {
-              font-size: 1.25rem;
+              font-size: 1rem;
               line-height: 1.5;
             }
           }

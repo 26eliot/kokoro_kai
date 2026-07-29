@@ -11,8 +11,9 @@
 
             <div class="address">
                 <p>〒356-0059</p>
-                <p>埼玉県ふじみ野市桜ヶ丘1-38-34</p>
-                <p>TEL : 049-293-6729</p>
+                <p>埼玉県ふじみ野市松山松山1-2-5<br>
+            カントー商事ビル1F</p>
+                <p>TEL : 049-290-3966</p>
             </div>
 
         </div>
@@ -39,7 +40,7 @@
                     </li>
                     <li>
                         <a href="<?= home_url()  ?>/service/ponte-pw">
-                            <span>相談支援</span>ぽんて
+                            <span>相談支援</span>ぽんて相談室
                         </a>
                     </li>
                 </ul>
@@ -73,7 +74,7 @@
                     <a href="<?= home_url();  ?>/service/ponte">就労継続支援B型　ぽんて</a>
                     <a href="<?= home_url();  ?>/service/plus">就労継続支援B型　ぷらす</a>
                     <a href="<?= home_url();  ?>/service/sakura">地域活動センター　さくら</a>
-                    <a href="<?= home_url();  ?>/service/ponte-pw">相談支援　ぽんて</a>
+                    <a href="<?= home_url();  ?>/service/ponte-pw">ぽんて相談室</a>
                 </div>
                 <!--  アコーディオンメニュー閉じる  -->
 

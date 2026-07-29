@@ -124,7 +124,7 @@
           <div class="time">10:00~</div>
 
           <div class="timeline-text">
-            <p>作業開始。途中10分の休憩を挟みながらの軽作業が中心ですが、ポスティングや施設外就労もあります。</p>
+            <p>作業開始。途中10分の休憩を挟みながらの軽作業を中心に行います。</p>
           </div>
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/ponte_tl02.png" alt="plus_tl02">
 
@@ -136,7 +136,7 @@
           <div class="time">12:00~</div>
 
           <div class="timeline-text">
-            <p>お昼休憩を１時間取ります。ご持参いただいたお弁当、または仕出し弁当（１食¥350）でランチタイムです。</p>
+            <p>お昼休憩を１時間取ります。ご持参いただいたお弁当、または仕出し弁当（１食¥500）でランチタイムです。</p>
           </div>
 
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/ponte_tl03.png" alt="plus_tl03">
@@ -237,7 +237,7 @@
           <div class="flow-card  step3">
             <div class="flow-title  step3">契約</div>
             <p class="step3">契約書を交わし、利用開始日や回数等の調整を行います。<br>
-              基本的に週５日利用となります。</p>
+              週１日からご利用可能です。</p>
           </div>
 
         </div>
@@ -280,7 +280,7 @@
           <li class="flow-li-plus">
             <div class="flow-2nd-title">お食事について</div>
             <p>給食はございません。お弁当をご持参いただくか、<br>
-              事業所で仕出し弁当（1食350円）をご注文ください。</p>
+              事業所で仕出し弁当（1食500円）をご注文ください。</p>
           </li>
 
           <li class="flow-li-plus">
@@ -302,7 +302,7 @@
         <div class="flow-contact-inner">
           <div class="tell">
             <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/tellphone.svg" alt="tell-icon">
-            <p class="tell-number">049-293-6729</p>
+            <p class="tell-number">049-290-3966</p>
           </div>
           <span>平日 9:00~17:00まで</span>
         </div>

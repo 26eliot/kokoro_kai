@@ -102,8 +102,7 @@
           <div class="time">10:00~</div>
 
           <div class="timeline-text">
-            <p>健康・身だしなみチェック、作業室内外の清掃から始めます。</p>
-            <span>※送迎の方は10：00からルート順にお迎え</span>
+            <p>健康チェックをしてから朝の会、ラジオ体操をします。</p>
           </div>
 
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl01.png" alt="plus_tl01">
@@ -122,10 +121,9 @@
               ・創作活動（イラスト、漫画など）<br>
               ・交流活動（ゲーム、当事者活動、外出など）<br>
               ・個別活動（個別相談、居場所づくり）<br>
-              ・訪問活動（自宅訪問相談）<br>
-              ・SST（社会生活技能訓練）<br>
             </p>
-            <span>※各プログラムは予約制で人数制限があります。</span>
+            <span>※各プログラムは予約制で人数制限があります。<br>
+          フリースペースで自由に過ごすこともできます。</span>
           </div>
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl02.png" alt="plus_tl02">
 
@@ -150,7 +148,7 @@
 
           <div class="timeline-text">
             <p>午後 各プログラム開始。（日替わり）</p>
-            <span>※各プログラムは予約制で人数制限があります。</span>
+            <span>※プログラムによっては予約制で、人数制限があります。</span>
           </div>
 
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl04.png" alt="plus_tl04">
@@ -159,16 +157,17 @@
 
         <li class="timeline-block">
 
-          <div class="time">15:00~</div>
+          <div class="time">14:30~</div>
 
           <div class="timeline-text">
-            <p>１日の振り返り、帰り支度ができたら作業終了です。</p>
-            <span>※送迎の方は15:00から順次送り</span>
+            <p>帰りの会。1日の振り返りをします。</p>
+            <span>15:00までは、自由に過ごす事ができます。</span>
           </div>
 
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl05.png" alt="plus_tl05">
 
         </li>
+
 
 
       </ul>
@@ -289,7 +288,7 @@
           <li class="flow-li-plus">
             <div class="flow-2nd-title">その他</div>
             <p>他の日中サービスをご利用の日は併用できません。<br>
-              ご利用を希望される場合は直接ご連絡いただくか、市役所の障害福祉課に<br>
+              ご利用を希望される場合は直接ご連絡いただくか、市役所の障がい福祉課に<br>
               お問い合わせください。<br>
               年度毎の利用更新が必要です。</p>
           </li>
@@ -307,7 +306,7 @@
         <div class="flow-contact-inner">
           <div class="tell">
             <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/tellphone.svg" alt="tell-icon">
-            <p class="tell-number">049-293-6729</p>
+            <p class="tell-number">049-290-3966</p>
           </div>
           <span>平日 9:00~17:00まで</span>
         </div>
@@ -354,7 +353,7 @@
           <li>
             <div>連絡先</div>
             <div class="address-tell">
-              <p>電話:049-293-6739</p>
+              <p>電話:049-290-3966</p>
               <p>FAX:049-293-6780</p>
             </div>
           </li>

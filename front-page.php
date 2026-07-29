@@ -166,40 +166,36 @@
 
         <div class="service-container">
 
-            <h2 class="h2-02">事業内容</h2>
+            <h2 class="h2-02">事業案内</h2>
 
             <div class="  service-outer">
 
                 <div class="service-block">
                     <a href="<?php echo  esc_url(home_url('/service/ponte/'));  ?>">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_simple.svg" alt="就労継続支援B型
+                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="就労継続支援B型
                                                 ぽんて">
-                        <p>就労継続支援B型<br>
-                            ぽんて</p>
+                        <p>障害福祉サービス<br></p>
                     </a>
                 </div>
 
                 <div class="service-block">
                     <a href="<?php echo  esc_url(home_url('/service/plus/'));  ?>">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_simple.svg" alt="就労継続支援B型ぷらす">
-                        <p class="service-title">就労継続支援B型<br>
-                            ぷらす</p>
+                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_plus_text.svg" alt="就労継続支援B型ぷらす">
+                        <p class="service-title">就労継続支援B型</p>
                     </a>
                 </div>
 
                 <div class="service-block">
                     <a href="<?php echo  esc_url(home_url('/service/sakura/'));  ?>">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_simple.svg" alt="地域活動支援センターさくら">
-                        <p class="service-title">地域活動支援センター<br>
-                            さくら</p>
+                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_sakura_text.svg" alt="地域活動支援センターさくら">
+                        <p class="service-title">地域活動支援センター</p>
                     </a>
                 </div>
 
                 <div class="service-block">
                     <a href="<?php echo  esc_url(home_url('/service/ponte-pw/'));  ?>">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_simple.svg" alt="相談支援ぽんて">
-                        <p class="service-title">相談支援<br>
-                            ぽんて</p>
+                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="相談支援ぽんて">
+                        <p class="service-title">ぽんて相談室</p>
                     </a>
                 </div>
 
