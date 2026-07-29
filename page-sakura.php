@@ -122,7 +122,7 @@
               ・交流活動（ゲーム、当事者活動、外出など）<br>
               ・個別活動（個別相談、居場所づくり）<br>
             </p>
-            <span>※各プログラムは予約制で人数制限があります。<br>
+            <span>※プログラムによっては予約制で、人数制限があります。<br>
           フリースペースで自由に過ごすこともできます。</span>
           </div>
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl02.png" alt="plus_tl02">
