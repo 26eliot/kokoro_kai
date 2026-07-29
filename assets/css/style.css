@@ -3214,7 +3214,7 @@ footer small {
     width: 200px;
   }
 }
-@media (min-width: 10240px) {
+@media (min-width: 1240px) {
   #top #service .service-container .service-outer .service-block .top-logo-img {
     width: 240px;
   }

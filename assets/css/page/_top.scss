@@ -642,12 +642,13 @@
 
           .top-logo-img {
             width: 120px;
+            
             height: auto;
             margin-bottom: 8px;
             @media (min-width: 600px) {
               width: 200px;
             }
-            @media (min-width: 10240px) {
+            @media (min-width: 1240px) {
               width: 240px;
             }
           }
