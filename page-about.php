@@ -52,7 +52,7 @@
                             </p>
                             <address>
                                 〒356-0027　<br>
-                                埼玉県ふじみ野市松山1-2-5 <br>
+                                埼玉県ふじみ野市松山1-2-5&nbsp;<br>
                                 カントー商事ビル1F
                             </address>
                             <div class="service__item--contact">
@@ -68,7 +68,7 @@
                             </p>
                             <address>
                                 〒356-0059　<br>
-                                埼玉県ふじみ野市　<br>
+                                埼玉県ふじみ野市&nbsp;<br>
                                 桜ヶ丘1-38-34
                             </address>
                             <div class="service__item--contact">
@@ -83,7 +83,7 @@
                             </p>
                             <address>
                                 〒356-0059　<br>
-                                埼玉県ふじみ野市　<br>
+                                埼玉県ふじみ野市&nbsp;<br>
                                 桜ヶ丘1-38-34 2F
                             </address>
                             <div class="service__item--contact">
@@ -98,7 +98,8 @@
                             </p>
                             <address>
                                 〒356-0027　<br>
-                                埼玉県ふじみ野市　 桜ヶ丘1-38-34 2F
+                                埼玉県ふじみ野市&nbsp;<br>
+                                桜ヶ丘1-38-34 2F
 
                             </address>
                             <div class="service__item--contact">
