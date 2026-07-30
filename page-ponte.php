@@ -124,7 +124,7 @@
           <div class="time">10:00~</div>
 
           <div class="timeline-text">
-            <p>作業開始。途中10分の休憩を挟みながらの軽作業を中心に行います。</p>
+            <p>作業開始。途中10分の休憩を挟みながら、軽作業を中心に行います。</p>
           </div>
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/ponte_tl02.png" alt="plus_tl02">
 
@@ -348,7 +348,7 @@
 
           <li>
             <div>所在地</div>
-            <p>埼玉県ふじみ野市松山 カントー商事ビル１Ｆ</p>
+            <p>埼玉県ふじみ野市松山1-2-5 カントー商事ビル１Ｆ</p>
           </li>
 
           <li>

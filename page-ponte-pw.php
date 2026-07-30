@@ -132,7 +132,7 @@
 
                     <div class="flow-card  step6">
                         <div class="flow-title  step6">ご利用開始</div>
-                        <p class="step6">会議で確定したサービス等<br class="pc-br">利用計画・障害児支援利用計画を市区町村に提出し、<br class="pc-br">サービスの利用を開始します。</p>
+                        <p class="step6">会議で確定したサービス等<br class="pc-br">利用計画を市区町村に提出し、<br class="pc-br">サービスの利用を開始します。</p>
                     </div>
 
                 </div>

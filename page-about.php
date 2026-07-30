@@ -84,7 +84,7 @@
                             <address>
                                 〒356-0059　<br>
                                 埼玉県ふじみ野市　<br>
-                                桜ヶ丘1-38-34
+                                桜ヶ丘1-38-34 2F
                             </address>
                             <div class="service__item--contact">
                                 <a href="tel:049-293-6329">TEL:049-290-3966</a>
@@ -98,12 +98,12 @@
                             </p>
                             <address>
                                 〒356-0027　<br>
-                                埼玉県ふじみ野市桜ケ丘1-38-34 2F
+                                埼玉県ふじみ野市　 桜ヶ丘1-38-34 2F
 
                             </address>
                             <div class="service__item--contact">
                                 <a href="tel::049–290-3966">TEL:049-293-6779</a>
-                                <span>FAX:049-264-8070</a>
+                                <span>FAX:049-263-6780</a>
 
                             </div>
                         </div>
