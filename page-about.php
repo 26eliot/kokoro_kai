@@ -52,7 +52,7 @@
                             </p>
                             <address>
                                 〒356-0027　<br>
-                                埼玉県ふじみ野市松山　<br>
+                                埼玉県ふじみ野市松山1-2-5 <br>
                                 カントー商事ビル1F
                             </address>
                             <div class="service__item--contact">
