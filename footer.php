@@ -74,7 +74,7 @@
                     <a href="<?= home_url();  ?>/service/ponte">就労継続支援B型　ぽんて</a>
                     <a href="<?= home_url();  ?>/service/plus">就労継続支援B型　ぷらす</a>
                     <a href="<?= home_url();  ?>/service/sakura">地域活動センター　さくら</a>
-                    <a href="<?= home_url();  ?>/service/ponte-pw">ぽんて相談室</a>
+                    <a href="<?= home_url();  ?>/service/ponte-pw">相談支援　ぽんて相談室</a>
                 </div>
                 <!--  アコーディオンメニュー閉じる  -->
 
