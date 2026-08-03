@@ -17,7 +17,7 @@
                 <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/pw_mv.webp" alt="ぷらすmainvisual">
 
                 <div class="cc bg-blue-2nd">
-                    <p>一人ひとりが その人らしく 生きて<br class="sp-br">いくために、<br class="pc-br">
+                    <p>一人ひとりが その人らしく 生きて<br class="sp-br">いくために、
                         私たちは、あなたの<br class="sp-br">想いにそっと寄り添います。</p>
                 </div>
             </div>

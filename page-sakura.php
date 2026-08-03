@@ -15,8 +15,8 @@
         <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_mv.webp" alt="さくらmainvisual">
 
         <div class="cc bg-orange-2nd">
-          <p>障害がある方の地域生活や社会生活が<br class="sp-br">充実するよう<br class="pc-br">
-            社会と関わる<br class="sp-br">きっかけづくりをお手伝いし、<br>
+          <p>障害がある方の、地域生活や社会生活が<br class="sp-br">充実するよう、
+            社会と関わる<br class="sp-br">きっかけづくりをお手伝いし、<br class="sp-br">
             ご自宅以外の居場所を提供します。</p>
         </div>
       </div>
@@ -123,7 +123,7 @@
               &nbsp;・個別活動（個別相談、居場所づくり）<br>
             </p>
             <span>※プログラムによっては予約制で、人数制限があります。<br>
-          フリースペースで自由に過ごすこともできます。</span>
+              フリースペースで自由に過ごすこともできます。</span>
           </div>
           <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/sakura_tl02.png" alt="plus_tl02">
 
@@ -275,21 +275,18 @@
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">ご利用料金</div>
-            <p>基本的にはかかりませんが、イベントや創作活動等にかかる費用、<br>
-              及び昼食代は自己負担となります。</p>
+            <p>基本的にはかかりませんが、イベントや創作活動等にかかる費用、及び昼食代は自己負担となります。</p>
           </li>
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">送迎について</div>
-            <p>ご希望の方は3ヶ月までの限定でご利用いただけます。<br>
-              ただし、乗降場所や送迎時間はご希望に添えない場合もございます。</p>
+            <p>ご希望の方は3ヶ月までの限定でご利用いただけます。ただし、乗降場所や送迎時間はご希望に添えない場合もございます。</p>
           </li>
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">その他</div>
             <p>他の日中サービスをご利用の日は併用できません。<br>
-              ご利用を希望される場合は直接ご連絡いただくか、市役所の障がい福祉課に<br>
-              お問い合わせください。<br>
+              ご利用を希望される場合は直接ご連絡いただくか、市役所の障がい福祉課にお問い合わせください。<br>
               年度毎の利用更新が必要です。</p>
           </li>
 

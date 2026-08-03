@@ -72,8 +72,7 @@
 
 
                 <div class="kv-inner">
-                    みんなの<span>幸せ</span>を<br>
-                    <span>考え</span>、<span>願い</span>、<br>
+                    みんなの<span>幸せ</span>を<span>考え</span>、<span>願い</span><br>
                     <span>行動</span>していきます
                 </div>
 

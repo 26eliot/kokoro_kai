@@ -16,8 +16,8 @@
         <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/ponte_mv.webp" alt="ぽんてmainvisual">
 
         <div class="cc bg-pink-2nd">
-          <p>長く在宅生活を送られている方の<br class="sp-br">社会生活が、<br class="pc-br">
-            労働やその他の活動を<br class="sp-br">通していきいきしたものに<br class="pc-br">
+          <p>長く在宅生活を送られている方の<br class="sp-br">社会生活が、
+            労働やその他の活動を<br class="sp-br">通していきいきしたものに
             なるよう<br class="sp-br">お手伝いします。</p>
         </div>
       </div>
@@ -272,21 +272,19 @@
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">ご利用料金</div>
-            <p>所得に応じて異なります(1カ月0円～37,800円)<br>
+            <p>所得に応じて異なります(1カ月0円～37,800円)。<br>
               詳細についてはお電話やメールでお問い合わせください。<br>
               週１日からご利用いただけます。</p>
           </li>
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">お食事について</div>
-            <p>給食はございません。お弁当をご持参いただくか、<br>
-              事業所で仕出し弁当（1食500円）をご注文ください。</p>
+            <p>給食はございません。お弁当をご持参いただくか、事業所で仕出し弁当（1食500円）をご注文ください。</p>
           </li>
 
           <li class="flow-li-plus">
             <div class="flow-2nd-title">送迎について</div>
-            <p>なるべくご希望に沿うように送迎をしておりますが、都合により乗降場所、<br>
-              送迎時間はご希望に添えない場合もございます。</p>
+            <p>なるべくご希望に沿うように送迎をしておりますが、都合により乗降場所、送迎時間はご希望に添えない場合もございます。</p>
           </li>
 
         </ul>
