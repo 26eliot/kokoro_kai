@@ -225,7 +225,7 @@
                         <div>連絡先</div>
                         <div class="address-tell">
                             <p>電話:049-293-6779</p>
-                            <p>FAX:049-263-6780</p>
+                            <p>FAX:049-293-6780</p>
                         </div>
                     </li>
 
@@ -233,66 +233,67 @@
 
             </div>
             <!--  address-outer  -->
+            git status
 
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.78695502829!2d139.5058389!3d35.8542272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dceaefda1a5b%3A0x3529bacdcf2d3b55!2z44CSMzU2LTAwNTkg5Z-8546J55yM44G144GY44G_6YeO5biC5qGc44Kx5LiY77yR5LiB55uu77yT77yY4oiS77yT77yU!5e0!3m2!1sja!2sjp!4v1769065218657!5m2!1sja!2sjp" 　style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="access">
-        <p class="access-title">アクセス</p>
+                <p class="access-title">アクセス</p>
 
-        <div class="access-block">
-          <div class="access-tool">
-            <div class="access-01">【電車】</div>
-            <p class="access-02">・東武東上線ふじみ野駅より徒歩30分</p>
-          </div>
-        </div>
+                <div class="access-block">
+                    <div class="access-tool">
+                        <div class="access-01">【電車】</div>
+                        <p class="access-02">・東武東上線ふじみ野駅より徒歩30分</p>
+                    </div>
+                </div>
 
-        <div class="access-block">
+                <div class="access-block">
 
-          <div class="access-tool">
+                    <div class="access-tool">
 
-            <div class="access-01">【バス】</div>
-            <p class="access-02">・ふじみ野駅西口より東武バス利用の場合 :</p>
+                        <div class="access-01">【バス】</div>
+                        <p class="access-02">・ふじみ野駅西口より東武バス利用の場合 :</p>
 
 
 
-            <div class="access-03">大井循環(ふじ01)、上福岡駅東口(ふじ02)、イオン循環(ふじ03)<br>
-              <p>それぞれ<span>「さくら住宅前」</span>下車 徒歩1分</p>
+                        <div class="access-03">大井循環(ふじ01)、上福岡駅東口(ふじ02)、イオン循環(ふじ03)<br>
+                            <p>それぞれ<span>「さくら住宅前」</span>下車 徒歩1分</p>
+                        </div>
+
+                    </div>
+
+                    <div class="access-tool">
+                        <p class="access-02">・上福岡駅西口より東武バス利用ご利用の場合：</p>
+
+                        <div class="access-03">
+                            <p>(上福04)<span>「ふじみ野市大井支所」</span>下車 徒歩10分
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="access-tool">
+                        <p class="access-02">
+                            ・ふじみん号ご利用の場合：</p>
+
+                        <div class="access-03">
+                            <p>CまたはEコース<span>「大井支所」</span>下車
+                                徒歩10分</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!--  access-block  -->
+
+                <p class="access-car">お車、または自転車でお越しの際は、敷地内に
+                    駐車場と駐輪場がございますのでご利用下さい。</p>
+
             </div>
-
-          </div>
-
-          <div class="access-tool">
-            <p class="access-02">・上福岡駅西口より東武バス利用ご利用の場合：</p>
-
-            <div class="access-03">
-              <p>(上福04)<span>「ふじみ野市大井支所」</span>下車 徒歩10分
-              </p>
-            </div>
-
-          </div>
-
-
-          <div class="access-tool">
-            <p class="access-02">
-              ・ふじみん号ご利用の場合：</p>
-
-            <div class="access-03">
-              <p>CまたはEコース<span>「大井支所」</span>下車
-                徒歩10分</p>
-            </div>
-
-          </div>
-
-        </div>
-        <!--  access-block  -->
-
-        <p class="access-car">お車、または自転車でお越しの際は、敷地内に
-          駐車場と駐輪場がございますのでご利用下さい。</p>
-
-      </div>
-      <!--  access  -->
+            <!--  access  -->
 
         </div>
         <!--  address-container  -->

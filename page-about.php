@@ -104,7 +104,7 @@
                             </address>
                             <div class="service__item--contact">
                                 <a href="tel::049–290-3966">TEL:049-293-6779</a>
-                                <span>FAX:049-263-6780</a>
+                                <span>FAX:049-293-6780</a>
 
                             </div>
                         </div>
