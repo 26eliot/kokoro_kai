@@ -21,7 +21,7 @@
 
         <nav class="footer_nav__pc">
             <div class="service-items">
-                <p class="list-style">事業内容</p>
+                <p class="list-style">事業案内</p>
                 <ul>
                     <li>
                         <a href="<?= home_url()  ?>/service/ponte">
@@ -47,7 +47,7 @@
             </div>
             <ul>
                 <li class="list-style"><a href="<?= home_url()  ?>/news">お知らせ</a></li>
-                <li class="list-style"><a href="<?= home_url()  ?>/about">会社概要</a></li>
+                <li class="list-style"><a href="<?= home_url()  ?>/about">法人概要</a></li>
                 <li class="list-style"><a href="<?= home_url()  ?>/contact">お問い合わせ</a></li>
                 <li class="list-style"><a href="<?= home_url()  ?>/privacy">プライバシーポリシー</a></li>
             </ul>
