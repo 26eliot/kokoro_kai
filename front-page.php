@@ -193,7 +193,7 @@
 
                 <div class="service-block">
                     <a href="<?php echo  esc_url(home_url('/service/ponte-pw/'));  ?>">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="相談支援ぽんて">
+                        <img class="top-logo-img " src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_pw_text.svg" alt="相談支援ぽんて">
                         <p class="service-title">ぽんて相談室</p>
                     </a>
                 </div>

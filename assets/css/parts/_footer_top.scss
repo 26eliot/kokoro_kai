@@ -9,14 +9,12 @@
 
   padding-bottom: 20px;
 
-
   @include tb() {
     padding-bottom: 80px;
   }
-  @include sp(){
+  @include sp() {
     padding-bottom: 48px;
   }
-
 
   &.bg-pink {
     background: var(--color-pink);
@@ -32,62 +30,117 @@
     background: var(--color-orange);
   }
 
+  /*  ========事業所一覧=======  */
+
   .service-container {
     padding-top: 40px;
     padding-inline: 20px;
-    h2 {
-      font-weight: normal;
-      margin-bottom: 24px;
-    }
-  }
-  .service-outer {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 840px;
-    width: 100%;
-    margin-inline: auto;
-    justify-content: center;
-    border-top: 1px solid $text;
-    border-bottom: 1px solid $text;
-    padding-block: 40px;
-    gap: 20px;
-    @include tb() {
-      padding-block: 20px;
-      gap: 12px;
-    }
-    .service-block {
-      width: 70%;
-      max-width: 280px;
+    max-width: 880px;
 
-      a {
+    .service-outer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+
+      .service-nav {
         display: flex;
         align-items: center;
-        img {
-          width: 120px;
-          @include tb() {
-            width: 80px;
-          }
+        width: 280px;
+        padding: 4px 16px;
+        border-radius: 999px;
+        transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+        &:hover {
+          transform: translateY(2px) translateX(1px);
         }
-        p {
-          span {
-            display: block;
-            font-size: 16px;
-            font-weight: normal;
-            white-space: nowrap;
-            margin-bottom: 8px;
-            @include tb() {
-              font-size: 14px;
+
+        .service-nav-icon {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          overflow: hidden;
+          flex-shrink: 0;
+          margin-right: 8px;
+        }
+
+        .service-nav-icon img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .service-nav-block {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          flex-grow: 1;
+
+          .service-nav-text {
+            color: $text;
+            margin-bottom: -2px;
+          }
+
+          .service-nav-logo {
+            width: auto;
+            height: 40px;
+            margin: 0 4px 4px;
+            img {
+              width: 100%;
+              height: 100%;
             }
           }
-          font-size: 18px;
-          font-weight: bold;
-          @include tb() {
-            font-size: 16px;
-          }
+
+        }
+        // .service-nav-block
+      }
+      // .service-nav
+
+      /* 各カラー */
+      .service-nav-pink {
+        background-color: $pink;
+        border: 2px solid $pink-2nd;
+        box-shadow: 2px 4px 0 $pink-2nd;
+        &:hover {
+          box-shadow: 0 1px 0 $pink-2nd;
+        }
+      }
+
+      .service-nav-green {
+        background-color: $green;
+        border: 2px solid $green-2nd;
+        box-shadow: 2px 4px 0 $green-2nd;
+        &:hover {
+          box-shadow: 0 1px 0 $green-2nd;
+        }
+      }
+
+      .service-nav-orange {
+        background-color: $orange;
+        border: 2px solid $orange-2nd;
+        box-shadow: 2px 4px 0 $orange-2nd;
+        &:hover {
+          box-shadow: 0 1px 0 $orange-2nd;
+        }
+      }
+
+      .service-nav-blue {
+        background-color: $blue;
+        border: 2px solid $blue-2nd;
+        box-shadow: 2px 4px 0 $blue-2nd;
+        &:hover {
+          box-shadow: 0 1px 0 $blue-2nd;
         }
       }
     }
+    // .service-outer
   }
+  // .service-container
+
+  /*  ========お気軽にお問い合わせください=======  */
 
   .footer_top-container {
     margin: 60px auto 0;
@@ -102,7 +155,7 @@
       background-repeat: no-repeat;
 
       @media (max-width: 600px) {
-        padding:8px 12px;
+        padding: 8px 12px;
       }
 
       .footer_top-outer {
@@ -159,7 +212,7 @@
             gap: 32px;
             max-width: 800px;
           }
-          .btn{
+          .btn {
             margin-right: 4px;
           }
 
@@ -301,7 +354,6 @@
   }
   // #back-btn-outer
 }
-
 // #footer-top
 
 .wave-footer {

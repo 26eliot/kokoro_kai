@@ -9,6 +9,47 @@
 
             <div class="service-outer">
 
+
+                <a href="<?= home_url();  ?>/service/ponte" class="service-nav service-nav-pink">
+
+                    <div class="service-nav-icon service-nav--pink"><img src="<?php echo  get_theme_file_uri();  ?>/assets/images/service_nav-icon-ponte.png" alt="ぽんて画像"></div>
+                    <div class="service-nav-block">
+                        <span class="service-nav-text">就労継続支援Ｂ型</span>
+                        <span class="service-nav-logo"><img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="ぽんてロゴ"></span>
+                    </div>
+
+                </a>
+
+
+                <a href="<?= home_url();  ?>/service/plus" class="service-nav service-nav-green">
+                    <div class="service-nav-icon"><img src="<?php echo  get_theme_file_uri();  ?>/assets/images/service_nav-icon-plus.png" alt="ぷらす画像"></div>
+                    <div class="service-nav-block">
+                        <span class="service-nav-text">就労継続支援Ｂ型</span>
+                        <span class="service-nav-logo"><img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_plus_text.svg" alt="ぷらすロゴ"></span>
+                    </div>
+                </a>
+
+
+                <a href="<?= home_url();  ?>/service/sakura" class="service-nav service-nav-orange">
+                    <div class="service-nav-icon"><img src="<?php echo  get_theme_file_uri();  ?>/assets/images/service_nav-icon-sakura.png" alt="さくら画像"></div>
+                    <div class="service-nav-block">
+                        <span class="service-nav-text">地域活動支援センター</span>
+                        <span class="service-nav-logo"><img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_sakura_text.svg" alt="さくらロゴ"></span>
+                    </div>
+                </a>
+
+
+                <a href="<?= home_url();  ?>/service/pw" class="service-nav service-nav-blue">
+                    <div class="service-nav-icon"><img src="<?php echo  get_theme_file_uri();  ?>/assets/images/service_nav-icon-pw.png" alt="相談支援画像"></div>
+                    <div class="service-nav-block">
+                        <span class="service-nav-text">相談支援</span>
+                        <span class="service-nav-logo"><img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_pw_text.svg" alt="ぽんて相談支援ロゴ"></span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- <div class="service-outer">
+
                 <div class="service-block">
                     <a href="<?= home_url();  ?>/service/ponte">
                         <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="就労継続支援B型  ぽんて">
@@ -49,7 +90,8 @@
                     </a>
                 </div>
 
-            </div>
+            </div> -->
+
             <!--  service-outer  -->
 
         </div>
