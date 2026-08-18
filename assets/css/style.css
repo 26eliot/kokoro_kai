@@ -1032,11 +1032,19 @@ footer small {
   /*  ========事業所一覧=======  */
 }
 #footer_top .service-container {
+  margin: 0 auto;
   padding-top: 40px;
   padding-inline: 20px;
-  max-width: 880px;
+  max-width: 1280px;
+}
+@media (max-width: 1240px) {
+  #footer_top .service-container {
+    max-width: 880px;
+  }
 }
 #footer_top .service-container .service-outer {
+  border-top: 1px solid;
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
