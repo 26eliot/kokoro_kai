@@ -10,7 +10,8 @@
             text-align: center;
             &--inner{
                 max-width: 996px;
-                padding: 40px 20px 64px;
+                padding-block: 2.5rem 4rem; /* padding: 40px 20px 64px */
+                padding-inline: 1.25rem; /* padding: 40px 20px 64px */
                 margin-inline: auto;
             }
 
@@ -19,10 +20,10 @@
 
         &__company{
             background: $blue;
-            padding-inline: 20px;
-            padding-bottom: 64px;
+            padding-inline: 1rem; /* padding-inline: 16px */
+            padding-block-end: 1.25rem; /* padding-bottom: 20px */
             @include tb(){
-                padding-bottom: 32px;
+                padding-block-end: 2rem; /* padding-bottom: 32px */
             }
             h2{
                 &::before{
@@ -32,11 +33,10 @@
             }
 
             dl{
-                max-width: 960px;
+                max-width: 800px;
                 width: 100%;
                 margin-inline: auto;
-                border-top: 1px solid $text;
-                border-bottom: 1px solid $text;
+
                 & > div{
                     display: flex;
                     padding-block: 24px;
@@ -57,7 +57,7 @@
                         @include tb(){
                             text-align: center;
                             width: 100%;
-                            margin-bottom: 8px;
+                            margin-block-end: 0.5rem; /* margin-bottom: 8px */
                         }
                     }
 
@@ -72,7 +72,7 @@
                             display: flex;
                             flex-direction: column;
                             gap: 8px;
-                            margin-bottom: 24px;
+                            margin-block-end: 1.5rem; /* margin-bottom: 24px */
                             @include tb(){
                                 margin-inline: auto;
                             }
@@ -97,7 +97,7 @@
                                 padding-block: 20px;
                                 p{
                                     font-size: 20px;
-                                    margin-bottom: 12px;
+                                    margin-block-end: 0.75rem; /* margin-bottom: 12px */
                                     span{
                                         display: block;
                                         font-size: 14px;
@@ -106,7 +106,7 @@
 
 
                                 address{
-                                    margin-bottom: 8px;
+                                    margin-block-end: 0.5rem; /* margin-bottom: 8px */
                                     br{
                                         display: none;
                                         @include tb(){

@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 /*  ===============================================
-#  page
+#  pw
 ===============================================  */
 
 #ponte-pw {
@@ -38,7 +38,9 @@
 
   .flow-pw {
     @media (min-width: 1024px) {
-      margin-top: 32px !important;
+      margin-block-start: 2rem !important;
+      margin-block-end: 0 !important;
+      margin-inline: 0 !important;
 
       flex-wrap: wrap;
       row-gap: 28px !important;
@@ -56,7 +58,8 @@
     .flow-card {
 
       @media (min-width: 1024px) {
-        padding: 56px 12px 56px 12px !important;
+        padding-block: 3.5rem !important;
+        padding-inline: 0.75rem !important;
       }
 
       .pc-br {
@@ -114,7 +117,8 @@
   /*  =======アドレス=======  */
 
   .access-car {
-    padding: 12px;
+    padding-block: 0.75rem;
+    padding-inline: 0.75rem;
   }
 
 }

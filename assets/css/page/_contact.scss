@@ -11,23 +11,23 @@
 
   .wave-top {
     max-height: 80px;
-    // top: 120px;
   }
 
   #tell-contact {
     position: relative;
     width: 100%;
-    padding-bottom: 40px;
+    padding-block-end: 2.5rem;
     z-index: 2;
 
     h3 {
-      padding: 0 12px;
-      margin: 0 20px 4px;
-      border-bottom: 1px solid $text;
+      padding-block: 2rem 0.875rem;
+      margin-inline: 20px;
     }
 
     .tell-outer {
-      margin: 0 auto;
+      margin-block: 0;
+      margin-inline: auto;
+      padding-inline: 1rem;
       max-width: 1200px;
 
       display: flex;
@@ -41,7 +41,8 @@
       }
 
       .tell-card {
-        padding: 12px;
+        padding-block: 0.75rem;
+        padding-inline: 0.75rem;
         width: 80%;
         border-bottom: 1px dashed $text;
 
@@ -70,7 +71,6 @@
             }
           }
         }
-        // @media (min-width: 600px)
 
         @media (min-width: 786px) {
           width: 25%;
@@ -89,9 +89,8 @@
         }
 
         .tell-title {
-          padding-bottom: 2px;
+          padding-block-end: 0.125rem;
         }
-        // tell-title
 
         .line-green {
           border-bottom: 1px solid $green-3rd;
@@ -107,12 +106,12 @@
         }
 
         p {
-          padding: 6px 0;
+          padding-block: 0.375rem;
+          padding-inline: 0;
           text-align: center;
           font-size: 1.175rem;
           font-weight: bold;
         }
-        // tell-title
 
         .tell-flex {
           display: flex;
@@ -123,312 +122,320 @@
           .tell-number {
             font-size: 1.375rem;
             font-weight: bold;
-            padding-bottom: 4px;
+            padding-block-end: 0.25rem;
           }
         }
-        // tell-flex
       }
-      // tell-card
     }
-    // tell-outer
   }
-  // #tell-contact
-
+  
   #mail-contact {
     position: relative;
     width: 100%;
     height: 100%;
-    padding: 10px 16px 40px;
+    padding-block: 0.625rem 2.5rem;
+    padding-inline: 1rem;
     z-index: 2;
 
     #form {
-      margin: 0 auto;
-      padding: 16px 16px 40px;
-      max-width: 900px;
+      margin-block: 0;
+      margin-inline: auto;
+      padding-block: 2rem 3rem;
+      padding-inline: 1rem;
+      max-width: 560px;
       background: $white;
       border-radius: 24px;
       box-shadow: 2px 4px 4px 0 $gray;
 
+      @media (min-width: 700px) {
+        max-width: 800px;
+      }
+
       h3 {
-        padding-top: 8px;
+        max-width: 560px;
+        padding-block-start: 0.5rem;
         border-bottom: 1px solid $text;
+        padding-block: 0 12px;
       }
 
       .form-desc {
-        padding: 16px 0;
+        padding-block: 1rem 1.5rem;
+        padding-inline: 0;
         max-width: fit-content;
         margin-inline: auto;
       }
 
       .form-outer {
-        margin: 0 auto;
+        margin-block: 0;
+        margin-inline: auto;
         max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
 
         @media (min-width: 786px) {
           max-width: 560px;
         }
 
-        .form-inner {
-          position: relative;
-          width: 100%;
-          padding-bottom: 4px;
-
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-
-          @media (min-width: 786px) {
-            flex-direction: row;
-            align-items: center;
-          }
-
-          .form-title {
-            text-align: center;
-            width: 350px;
-            @media (min-width: 786px) {
-              text-align: left;
-            }
-
-            &::after {
-              content: " *";
-              color: $text-sub;
-              font-weight: bold;
-              vertical-align: middle;
-            }
-          }
-
-          p {
+        .wpcf7 {
+          .form-inner {
+            padding-block-end: 0.25rem;
+            position: relative;
             width: 100%;
+            
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
             @media (min-width: 786px) {
-              max-width: 600px;
+              padding-block-end: 1rem;
               flex-direction: row;
+              align-items: center;
             }
 
-            .reply {
-              margin: 1rem auto 0;
-              width: fit-content;
-              max-width: 350px;
+            .form-title {
               text-align: center;
-
-              display: block;
-              border-bottom: 1px dashed $text;
-
+              width: 320px;
               @media (min-width: 786px) {
-                width: 350px;
                 text-align: left;
-                border: none;
+              }
+
+              &::after {
+                content: " *";
+                color: $text-sub;
+                font-weight: bold;
+                vertical-align: middle;
               }
             }
 
-            .wpcf7-radio {
-              display: block;
-              margin: 0 auto;
-              max-width: 350px;
-
-              .wpcf7-list-item {
-                margin: 0;
-                padding-top: 6px;
-              }
-
+            p {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
               @media (min-width: 786px) {
-                padding-bottom: 16px;
+                max-width: 600px;
+                flex-direction: row;
+              }
+
+              .reply {
+                margin-block: 1rem 0;
+                margin-inline: auto;
+                width: fit-content;
+                max-width: 350px;
+                text-align: center;
+
+                display: block;
+                border-bottom: 1px dashed $text;
+
+                @media (min-width: 786px) {
+                  width: 350px;
+                  text-align: left;
+                  border: none;
+                }
+              }
+
+              .wpcf7-radio {
+                display: block;
+                margin-block: 0;
+                margin-inline: auto;
+                max-width: 350px;
+
+                .wpcf7-list-item {
+                  margin-block: 0;
+                  margin-inline: 0;
+                  padding-block-start: 0.375rem;
+                }
               }
             }
-          }
-          // p
 
-          span {
-            width: 100%;
-            // padding-top: 6px;
+            span {
+              width: 100%;
 
-            .from-text {
+              .form-text {
+                display: block;
+                margin-block: 0;
+                margin-inline: auto;
+                width: 100%;
+                max-width: 350px;
+                height: 30px;
+                border-radius: 4px;
+                border: 1px solid $orange;
+                @media (min-width: 786px) {
+                  text-align: left;
+                }
+              }
+            }
+
+            .wpcf7-form-control-wrap[data-name="select-type"] {
+              position: relative;
               display: block;
-              margin: 0 auto;
+              margin-block: 0;
+              margin-inline: auto;
               width: 100%;
               max-width: 350px;
-              height: 30px;
-              border: 1px solid $orange;
-              @media (min-width: 786px) {
-                text-align: left;
+
+              &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 12px;
+                transform: translateY(-70%) rotate(45deg);
+
+                width: 8px;
+                height: 8px;
+                border-right: 1px solid $orange;
+                border-bottom: 1px solid $orange;
+
+                pointer-events: none;
+                z-index: 2;
+              }
+
+              .form-dropdown {
+                display: block;
+                margin-block: 0;
+                margin-inline: auto;
+                padding-block: 0;
+                padding-inline: 0.625rem;
+                width: 100%;
+                max-width: 350px;
+                height: 30px;
+                border-radius: 4px;
+                border: 1px solid $orange;
+
+                appearance: none;
+                -webkit-appearance: none;
               }
             }
-          }
-          // span
 
-          .wpcf7-form-control-wrap[data-name="select-type"] {
-            position: relative;
+            .form-message {
+              display: block;
+              margin-block: 0;
+              margin-inline: auto;
+              width: 100%;
+              max-width: 350px;
+              height: 7rem;
+              border-radius: 4px;
+              border: 1px solid $orange;
+
+              resize: none;
+            }
+          }
+
+          .privacy-check-row {
+            padding-block: 1rem 1.5rem;
+            padding-inline: 0;
+
+            p {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              gap: 8px;
+
+              .wpcf7-form-control-wrap {
+                .wpcf7-acceptance {
+                  .wpcf7-list-item {
+                    label {
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      gap: 8px;
+
+                      .wpcf7-list-item-label {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: fit-content;
+
+                        font-size: 0.95rem;
+
+                        a {
+                          color: $text-sub;
+                          font-size: 0.95rem;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+
+              .wpcf7-not-valid-tip {
+                position: absolute;
+                width: 240px;
+                top: 100%;
+                left: 0;
+              }
+            }
+
+            .wpcf7-list-item {
+              margin-block: 0;
+              margin-inline: 0;
+            }
+          }
+
+          .privacy-text {
+            width: fit-content;
+            a {
+              display: inline-block;
+              color: $orange-3rd;
+              text-decoration: underline;
+            }
+          }
+
+          .send-btn {
             display: block;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 350px;
+            position: relative;
+
+            margin-block: 0;
+            margin-inline: auto;
+            padding-block: 0.3125rem;
+            padding-inline: 1.5rem;
+            width: fit-content;
+            text-align: center;
+            .btn {
+              max-width: 200px;
+              font-size: 1.075rem;
+            }
 
             &::before {
               content: "";
               position: absolute;
               top: 50%;
-              right: 12px;
-              transform: translateY(-70%) rotate(45deg);
+              right: 30px;
+              transform: translateY(-50%);
 
-              width: 8px;
-              height: 8px;
-              border-right: 1px solid $orange;
-              border-bottom: 1px solid $orange;
+              width: 16px;
+              height: 16px;
+              background: $text;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              z-index: 1;
+            }
 
-              pointer-events: none;
+            &::after {
+              content: "";
+              position: absolute;
+              top: 50%;
+              right: 37px;
+              transform: translateY(-55%) rotate(45deg);
+
+              width: 4px;
+              height: 4px;
+              border-top: 1px solid $btn-cc;
+              border-right: 1px solid $btn-cc;
               z-index: 2;
             }
 
-            .form-dropdown {
-              display: block;
-              margin: 0 auto;
-              padding: 0 10px;
-              width: 100%;
-              max-width: 350px;
-              height: 30px;
-              border: 1px solid $orange;
-
-              appearance: none;
-              -webkit-appearance: none;
+            .wpcf7-spinner {
+              display: none;
             }
-            // form-dropdown
-          }
-          // .wpcf7-form-control-wrap
-
-          .form-message {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 350px;
-            height: 7rem;
-            border: 1px solid $orange;
-
-            resize: none;
-          }
-          // form-message
-        }
-        // form-inner
-
-        // プライバシーポリシー
-        .privacy-check-row {
-          padding: 16px 0 24px;
-
-          p {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-
-            .wpcf7-form-control-wrap {
-              .wpcf7-acceptance {
-                .wpcf7-list-item {
-                  label {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 8px;
-
-                    .wpcf7-list-item-label {
-                      display: flex;
-                      align-items: center;
-                      justify-content: center;
-                      width: fit-content;
-
-                      font-size: .95rem;
-                      
-                      a {
-                        color: $text-sub;
-                        font-size: .95rem;
-                      }
-                    }
-                  }
-                }
-
-              }
-            }
-
-            .wpcf7-not-valid-tip {
-              position: absolute;
-              width: 240px;
-              top: 100%;
-              left: 0;
-            }
-          }
-
-          .wpcf7-list-item {
-            margin: 0;
-          }
-        }
-
-        .privacy-text {
-          width: fit-content;
-          a {
-            display: inline-block;
-            color: $orange-3rd;
-            text-decoration: underline;
-          }
-        }
-        // .privacy-check-row
-
-        .send-btn {
-          display: block;
-          position: relative;
-
-          margin: 0 auto;
-          padding: 5px 24px;
-          width: fit-content;
-          text-align: center;
-          .btn {
-            max-width: 200px;
-            font-size: 1.075rem;
-          }
-
-          &::before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 30px;
-            transform: translateY(-50%);
-
-            width: 16px; //
-            height: 16px;
-            background: $text;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 1;
-          }
-
-          &::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 37px;
-            transform: translateY(-55%) rotate(45deg);
-
-            width: 4px;
-            height: 4px;
-            border-top: 1px solid $btn-cc;
-            border-right: 1px solid $btn-cc;
-            z-index: 2;
-          }
-
-          .wpcf7-spinner {
-            display: none;
           }
         }
       }
-      // form-outer
     }
-
-    // #form
   }
-
-  // #mail-contact
 }
-
-// #contact

@@ -54,7 +54,7 @@
                     </li>
                     <li class="service  background_circle  background_circle--02">
                         <a class="service">
-                            <span class="menu_text">事業内容</span>
+                            <span class="menu_text">事業案内</span>
                             <div class="service__items">
                                 <object>
                                     <a href="<?= home_url();  ?>/service/ponte">
@@ -85,7 +85,7 @@
                     </li>
                     <li class="background_circle  background_circle--03">
                         <a href="<?= home_url();  ?>/about">
-                            <span class="menu_text">会社概要</span>
+                            <span class="menu_text">法人概要</span>
                         </a>
                     </li>
                     <li>
@@ -125,7 +125,7 @@
             <li><a href="<?= home_url()  ?>/news">お知らせ<span class="arrow"></span></a></li>
 
             <li class="btn-accordion  js-ac">
-                <button class="accordion-head">事業内容</button>
+                <button class="accordion-head">事業案内</button>
                 <span class="plus"></span>
             </li>
             <!--  アコーディオンメニュー  -->
@@ -138,7 +138,7 @@
             <!--  アコーディオンメニュー閉じる  -->
 
 
-            <li><a href="<?= home_url();  ?>/about">会社概要<span class="arrow"></span></a></li>
+            <li><a href="<?= home_url();  ?>/about">法人概要<span class="arrow"></span></a></li>
 
             <!-- <a href="#"><img class="inst" src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/instagram.svg" alt="instagram"></a> -->
             <div class="sub-menu">

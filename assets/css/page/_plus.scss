@@ -25,7 +25,8 @@
         .flow-card {
           
           @media (min-width: 1024px) {
-            padding: 56px 12px 32px 12px;
+            padding-block: 3.5rem 2rem;
+            padding-inline: 0.75rem;
             min-height: 260px;
           }
           

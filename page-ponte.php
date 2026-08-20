@@ -59,10 +59,10 @@
 
 
 
-    <h3>事業所方針</h3>
-
+    
     <div class="policy-container">
-
+      
+      <h3>事業所方針</h3>
 
       <div class="policy-outer">
 

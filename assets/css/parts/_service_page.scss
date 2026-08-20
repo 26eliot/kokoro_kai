@@ -9,12 +9,17 @@
   z-index: 2;
 
   .service-head {
-    margin: 0 auto 12px;
-    padding: 8px 16px;
+    margin: 20px auto 28px;
+    padding: 12px 24px;
     width: fit-content;
     background: $white;
     font-size: 1.5rem;
-    border-radius: 24px;
+    border-radius: 9999px;
+
+    @include tb() {
+      margin: 2px auto 16px;
+      font-size: 1.125em;
+    }
   }
 
   .top-bg {
@@ -85,17 +90,21 @@
           border-radius: 24px;
           z-index: 3;
 
-          .sp-br{
-            display: none;
-            @include tb(){
-              display: block;
-            }
+          @include tb() {
+            margin-top: -2%;
           }
 
-          @media (min-width: 600px) {
-            margin-top: -4%;
+          @media (min-width: 801px) {
+            margin-top: -2%;
             margin-left: 2%;
             padding: 18px 28px;
+          }
+
+          .sp-br {
+            display: none;
+            @include tb() {
+              display: block;
+            }
           }
 
           p {
@@ -103,12 +112,11 @@
             color: $white;
             letter-spacing: 1px;
             line-height: 1.3;
-            
+
             @media (min-width: 600px) {
               max-width: 600px;
               font-size: 1.125em;
             }
-
           }
         }
 
@@ -200,7 +208,7 @@
 
     .policy-container {
       margin: 0 auto;
-      padding: 12px 0 20px;
+      padding: 0 16px 20px;
       width: 100%;
 
       .policy-outer {
@@ -238,28 +246,27 @@
 
   #schedule {
     background: $pink;
-    padding-bottom: 20px;
 
     .timeline-container {
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 16px 20px;
       width: 100%;
-      max-width: 600px;
+      max-width: 560px;
 
       @media (min-width: 1024px) {
-        max-width: 800px;
+        max-width: 640px;
       }
 
       .timeline {
-        margin-left: 20px !important;
-        padding-top: 20px;
+        margin-left: 16px !important;
+        padding-top: 8px;
         position: relative;
         border-left: 2px solid $pink-2nd;
 
         // @media (min-width: 600px) {
         //   margin-left: 50px;
         // }
-  
+
         .timeline-block {
           margin-bottom: 20px;
           padding-left: 30px;
@@ -317,7 +324,7 @@
           }
 
           .timeline-text {
-            padding: 12px 20px 4px;
+            padding: 12px 16px 4px;
             line-height: 1.8;
 
             p {
@@ -342,27 +349,39 @@
   #flow {
     .flow-container {
       margin: 0 auto;
-      padding-bottom: 20px;
+      padding: 0 0 20px;
+
       width: 100%;
 
       .flow-outer {
-        margin: 20px auto 30px;
-        padding: 0 20px 0 30px;
-        max-width: 520px;
+        margin: 0 auto 24px;
+        padding: 0 16px 20px 32px;
+        width: fit-content;
+        // max-width: 320px;
         display: flex;
         flex-direction: column;
         gap: 16px;
 
+        @media (min-width: 560px) {
+          max-width: 560px;
+        }
+        @media (min-width: 800px) {
+          max-width: 560px;
+          margin-bottom: 32px;
+        }
+
         @media (min-width: 1024px) {
           max-width: 900px;
+          padding-top: 20px;
           flex-direction: row;
           justify-content: center;
           align-items: stretch;
+          gap: 20px;
+
+          margin-bottom: 48px;
         }
 
-        @media (min-width: 1240px) {
-          gap: 20px;
-        }
+
 
         .flow-block {
           display: flex;
@@ -422,7 +441,7 @@
             p {
               line-height: 1.5;
               padding-left: 4px;
-              
+
               text-spacing-trim: space-first;
               hanging-punctuation: last allow-end;
             }
@@ -463,8 +482,8 @@
       /* ========ご利用の流れ詳細======= */
 
       .flow-2nd-outer {
-        margin: 40px 0;
-        padding: 12px 16px;
+        margin: 0 auto 20px;
+        padding: 16px 16px;
         width: auto;
 
         position: relative;
@@ -472,7 +491,7 @@
         box-shadow: 0 4px 10px -4px $gray;
 
         @media (min-width: 786px) {
-          margin: 40px auto 0;
+          margin: 0 auto 48px;
           width: 100%;
         }
 
@@ -552,7 +571,11 @@
         flex-direction: column;
         align-items: center;
 
+        @media (min-width: 560px) {
+          max-width: 480px;
+        }
         @media (min-width: 786px) {
+          margin: 0 auto 32px;
           max-width: 760px;
           padding: 28px;
           flex-direction: row;
@@ -574,7 +597,7 @@
 
         .disc {
           font-size: 1rem;
-          padding-bottom: 8px;
+          padding-bottom: 16px;
 
           @media (min-width: 786px) {
             order: 1;
@@ -642,7 +665,7 @@
     background: $yellow;
 
     .address-container {
-      padding: 20px 0;
+      padding: 40px 16px 20px;
       margin: 0 auto;
       width: 100%;
       max-width: 600px;
@@ -652,12 +675,12 @@
       }
 
       .address-outer {
-        padding: 8px 20px;
         margin: 0 auto;
         width: 100%;
 
         @media (min-width: 786px) {
-          max-width: 600px;
+          max-width: 580px;
+          padding: 0;
         }
 
         ul {
@@ -668,8 +691,12 @@
             align-items: flex-start;
             border-bottom: 1px dashed $text;
 
+            &:last-of-type {
+              border-bottom: none;
+            }
+
             div {
-              width: 130px;
+              width: 160px;
               flex-shrink: 0;
             }
 
@@ -705,7 +732,7 @@
 
     .map {
       position: relative;
-      margin: 20px auto;
+      margin: 16px auto;
       aspect-ratio: 16 /9;
       width: 100%;
       height: 100%;
@@ -723,7 +750,7 @@
     // map
 
     .access {
-      padding: 8px 16px;
+      padding: 16px 16px 0;
 
       .access-title {
         font-size: 1.25rem;

@@ -5,7 +5,7 @@
     <?php if (isset($args["service"])):  ?>
         <div class="service-container">
 
-            <h2>一般社団法人　こころ会</h2>
+            <h3>事業案内</h3>
 
             <div class="service-outer">
 
@@ -47,54 +47,9 @@
                     </div>
                 </a>
             </div>
-
-            <!-- <div class="service-outer">
-
-                <div class="service-block">
-                    <a href="<?= home_url();  ?>/service/ponte">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="就労継続支援B型  ぽんて">
-                        <p>
-                            <span>就労継続支援B型</span>
-                            ぽんて
-                        </p>
-                    </a>
-                </div>
-
-                <div class="service-block">
-                    <a href="<?= home_url();  ?>/service/plus">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_plus_text.svg" alt="就労継続支援B型ぷらす">
-                        <p class="service-title">
-                            <span>就労継続支援B型</span>
-                            ぷらす
-                        </p>
-                    </a>
-                </div>
-
-                <div class="service-block">
-                    <a href="<?= home_url();  ?>/service/sakura">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_sakura_text.svg" alt="地域活動支援センターさくら">
-                        <p class="service-title">
-                            <span>地域活動支援センター</span>
-                            さくら
-                        </p>
-                    </a>
-                </div>
-
-                <div class="service-block">
-                    <a href="<?= home_url();  ?>/service/ponte-pw">
-                        <img class="top-logo-img" src="<?php echo  get_theme_file_uri();  ?>/assets/images/logo_ponte_text.svg" alt="相談支援ぽんて">
-                        <p class="service-title">
-                            <span>相談支援</span>
-                            ぽんて相談室
-                        </p>
-                    </a>
-                </div>
-
-            </div> -->
-
-            <!--  service-outer  -->
-
+            
         </div>
+        <!--  service-outer  -->
     <?php endif;  ?>
     <div class="footer_top-container">
 
@@ -105,16 +60,19 @@
                 <div class="contact-text">お気軽にお問い合わせください</div>
 
 
-                <p>一般社団法人こころ会</p>
+                <p class="contact-text_sub">一般社団法人こころ会</p>
 
                 <div class="footer_top-inner">
 
                     <div class="footer_top-block">
-                        <p>049-290-3966</p>
+                        <div class="tellphone">
+                            <img src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/tellphone.svg" alt="電話アイコン">
+                            <p class="tell_number">049-290-3966</p>
+                        </div>
                         <span>平日 9:00〜17:00まで</span>
                     </div>
 
-                    <a class="btn  contact" href="<?php echo  esc_url(home_url('/contact'));  ?>">
+                    <a class="btn  contact btn_footer-top" href="<?php echo  esc_url(home_url('/contact'));  ?>">
                         <img class="mail-icon" src="<?php echo  get_theme_file_uri();  ?>/assets/images/icon/mail.svg" alt="mail  icon">
                         お問い合わせ
                         <span class="btn-circle"></span>
