@@ -39,7 +39,7 @@
                 </a>
 
 
-                <a href="<?= home_url();  ?>/service/pw" class="service-nav service-nav-blue">
+                <a href="<?= home_url();  ?>/service/ponte-pw" class="service-nav service-nav-blue">
                     <div class="service-nav-icon"><img src="<?php echo  get_theme_file_uri();  ?>/assets/images/service_nav-icon-pw.png" alt="相談支援画像"></div>
                     <div class="service-nav-block">
                         <span class="service-nav-text">相談支援</span>
