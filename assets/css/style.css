@@ -3066,6 +3066,7 @@ footer small {
   #top #top-container #kv .kv-container .kv-inner {
     padding-block-end: 5rem;
     font-size: 2rem;
+    padding-block-start: 1dvw;
   }
 }
 #top #top-container #kv .kv-container .kv-inner span {
@@ -3085,6 +3086,7 @@ footer small {
 @media (min-width: 1024px) {
   #top #top-container #kv .kv-container .kv-inner span {
     font-size: 2rem;
+    padding-block-start: 1dvw;
   }
 }
 #top #top-container .cc-img {
